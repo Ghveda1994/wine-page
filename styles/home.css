@@ -1,0 +1,163 @@
+main {
+  margin-top: -80px;
+}
+
+.final-offer {
+  background-image: url(../img/0Vault_Wines_Bottle.jpg);
+  width: 100%;
+  height: 1080px;
+  background-size: cover;
+  position: relative;
+}
+
+.offer-text {
+  position: absolute;
+  top: 424px;
+  left: 150px;
+  width: 240px;
+  height: 233px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.sale {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+}
+
+.shop-btn {
+  top: 607px;
+  left: 150px;
+  width: 150px;
+  height: 50px;
+  background-color: #fafafa;
+  padding-left: 40px;
+  padding-top: 11px;
+}
+
+.text-white {
+  color: #fafafa;
+}
+
+.text-black {
+  color: #262626;
+}
+
+.final {
+  font-size: 49px;
+}
+
+/* shipping products */
+
+.shipping-products {
+  width: 100%;
+  height: 80px;
+  background: #ffffff 0% 0%;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 169px;
+  padding-right: 169px;
+}
+
+.shipping-100 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+}
+
+/* sale-30%-boxes */
+
+.sale30 {
+  display: flex;
+  flex-direction: row;
+  padding: 150px;
+  gap: 80px;
+  justify-content: center;
+}
+
+.sale30-1 {
+  background-image: url(../img/sale30-1.jpg);
+  width: 400px;
+  height: 720px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.sale30-2,
+.sale30-3 {
+  background-image: url(../img/sale30-2-3.jpg);
+  width: 600px;
+  height: 340px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.test {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translate(0, -50%);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.little-sale-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.sale1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+}
+
+/* banner */
+
+.banner {
+  background-image: url(../img/banner\ background.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.banner-section {
+  padding: 180px;
+}
+
+.banner-text {
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+}
+
+.banner-main-text {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-btn {
+  padding-left: 10px;
+}
